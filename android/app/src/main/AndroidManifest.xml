@@ -23,7 +23,7 @@
     </intent>
     </queries>
    <application
-        android:label="Taxi madina Driver"
+        android:label="Transawy Driver"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
@@ -57,7 +57,7 @@
         </activity>
        
         <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyCC2reTxxdUBtaAXOlDiyDoypwa0DCHxes"/>
+               android:value="AIzaSyArJ9dqhIQhdXYzqcEpyqJO2gtV1zsdgaI"/>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data

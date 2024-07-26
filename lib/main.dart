@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
           },
           child: MaterialApp(
               debugShowCheckedModeBanner: false,
-              title: 'Taxi madina Driver',
+              title: 'Transawy Driver',
               theme: ThemeData(),
               home: const LoadingPage())),
     );

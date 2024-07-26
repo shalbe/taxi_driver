@@ -154,11 +154,11 @@ class _LoadingPageState extends State<LoadingPage> {
       child: Scaffold(
         body: Stack(
           children: [
-            Container(
+               Container(
               height: media.height * 1,
               width: media.width * 1,
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: Color(0xff04b711),
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -169,7 +169,7 @@ class _LoadingPageState extends State<LoadingPage> {
                     height: media.width * 0.429,
                     decoration: const BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage('assets/images/splash_icon.png'),
+                            image: AssetImage('assets/images/logo.png'),
                             fit: BoxFit.contain)),
                   ),
                 ],
