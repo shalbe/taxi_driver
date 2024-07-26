@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tigwaal_driver/functions/functions.dart';
+import 'package:tagyourtaxi_driver/functions/functions.dart';
 
 class Charged extends StatelessWidget {
   Charged({Key? key}) : super(key: key);

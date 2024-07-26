@@ -2,8 +2,8 @@ import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:tigwaal_driver/functions/functions.dart';
-import 'package:tigwaal_driver/styles/styles.dart';
+import 'package:tagyourtaxi_driver/functions/functions.dart';
+import 'package:tagyourtaxi_driver/styles/styles.dart';
 
 // create an instance
 FirebaseMessaging messaging = FirebaseMessaging.instance;
@@ -43,12 +43,10 @@ void initMessaging() {
         ),
       ],
       debug: true);
-      
-    AwesomeNotifications().setListeners(
-      onActionReceivedMethod: onActionReceivedMethod,
-    );
-  
 
+  AwesomeNotifications().setListeners(
+    onActionReceivedMethod: onActionReceivedMethod,
+  );
 
   // AwesomeNotifications().actionStream.listen((event) {
   //   if (event.buttonKeyPressed == 'accept') {
@@ -57,7 +55,7 @@ void initMessaging() {
   //     requestReject();
   //   }
   // });
- 
+
   FirebaseMessaging.onMessage.listen((RemoteMessage message) {
     RemoteNotification? notification = message.notification;
     AndroidNotification? android = message.notification?.android;
@@ -80,13 +78,12 @@ void initMessaging() {
     }
   });
 }
+
 @pragma('vm:entry-point')
-   Future<void> onActionReceivedMethod(
-      ReceivedAction receivedAction) async {
-    if (receivedAction.buttonKeyPressed == 'accept') {
-       requestAccept();
-    } else {
-      requestReject();
-    }
-  
+Future<void> onActionReceivedMethod(ReceivedAction receivedAction) async {
+  if (receivedAction.buttonKeyPressed == 'accept') {
+    requestAccept();
+  } else {
+    requestReject();
   }
+}

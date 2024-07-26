@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tigwaal_driver/cubit/payment_cubit.dart';
-import 'package:tigwaal_driver/functions/functions.dart';
-import 'package:tigwaal_driver/functions/notifications.dart';
-import 'package:tigwaal_driver/share/dio_helper.dart';
+import 'package:tagyourtaxi_driver/cubit/payment_cubit.dart';
+import 'package:tagyourtaxi_driver/functions/functions.dart';
+import 'package:tagyourtaxi_driver/functions/notifications.dart';
+import 'package:tagyourtaxi_driver/share/dio_helper.dart';
 import 'pages/loadingPage/loadingpage.dart';
 import 'package:firebase_core/firebase_core.dart';
 

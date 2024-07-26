@@ -2,16 +2,16 @@ import 'dart:async';
 
 import 'package:dio/dio.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tigwaal_driver/cubit/payment_state.dart';
-import 'package:tigwaal_driver/functions/const.dart';
-import 'package:tigwaal_driver/functions/functions.dart';
-import 'package:tigwaal_driver/model/add_amount_model.dart';
-import 'package:tigwaal_driver/model/first_token.dart';
-import 'package:tigwaal_driver/model/get_add.dart';
-import 'package:tigwaal_driver/model/get_api_key.dart';
-import 'package:tigwaal_driver/model/get_wallet.dart';
-import 'package:tigwaal_driver/model/order_id_model.dart';
-import 'package:tigwaal_driver/share/dio_helper.dart';
+import 'package:tagyourtaxi_driver/cubit/payment_state.dart';
+import 'package:tagyourtaxi_driver/functions/const.dart';
+import 'package:tagyourtaxi_driver/functions/functions.dart';
+import 'package:tagyourtaxi_driver/model/add_amount_model.dart';
+import 'package:tagyourtaxi_driver/model/first_token.dart';
+import 'package:tagyourtaxi_driver/model/get_add.dart';
+import 'package:tagyourtaxi_driver/model/get_api_key.dart';
+import 'package:tagyourtaxi_driver/model/get_wallet.dart';
+import 'package:tagyourtaxi_driver/model/order_id_model.dart';
+import 'package:tagyourtaxi_driver/share/dio_helper.dart';
 
 class PaymentCubit extends Cubit<PaymentState> {
   PaymentCubit() : super(PaymentInitial());

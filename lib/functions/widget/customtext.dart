@@ -1,7 +1,7 @@
 // ignore_for_file: must_be_immutable
 
 import 'package:flutter/material.dart';
-import 'package:tigwaal_driver/functions/style.dart';
+import 'package:tagyourtaxi_driver/functions/style.dart';
 
 class CustomText extends StatelessWidget {
   final String data;

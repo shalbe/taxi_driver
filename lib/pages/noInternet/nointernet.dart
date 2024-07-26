@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tigwaal_driver/functions/functions.dart';
-import 'package:tigwaal_driver/styles/styles.dart';
-import 'package:tigwaal_driver/translation/translation.dart';
-import 'package:tigwaal_driver/widgets/widgets.dart';
+import 'package:tagyourtaxi_driver/functions/functions.dart';
+import 'package:tagyourtaxi_driver/styles/styles.dart';
+import 'package:tagyourtaxi_driver/translation/translation.dart';
+import 'package:tagyourtaxi_driver/widgets/widgets.dart';
 
 // ignore: must_be_immutable
 class NoInternet extends StatefulWidget {

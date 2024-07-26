@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tigwaal_driver/cubit/payment_cubit.dart';
-import 'package:tigwaal_driver/cubit/payment_state.dart';
-import 'package:tigwaal_driver/functions/const.dart';
-import 'package:tigwaal_driver/functions/functions.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/visascreen.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/vodafone_cash_screen.dart';
-import 'package:tigwaal_driver/styles/styles.dart';
+import 'package:tagyourtaxi_driver/cubit/payment_cubit.dart';
+import 'package:tagyourtaxi_driver/cubit/payment_state.dart';
+import 'package:tagyourtaxi_driver/functions/const.dart';
+import 'package:tagyourtaxi_driver/functions/functions.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/visascreen.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/vodafone_cash_screen.dart';
+import 'package:tagyourtaxi_driver/styles/styles.dart';
 
 class WalletPhone extends StatelessWidget {
   int? price;

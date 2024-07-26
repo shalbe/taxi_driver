@@ -9,28 +9,28 @@ import 'package:flutter/services.dart';
 import 'package:geolocator/geolocator.dart' as geolocs;
 import 'package:location/location.dart';
 // import 'package:location/location.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/editprofile.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/history.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/makecomplaint.dart';
-import 'package:tigwaal_driver/pages/login/get_started.dart';
-import 'package:tigwaal_driver/pages/login/login.dart';
-// import 'package:tigwaal_driver/pages/login/ownerregister.dart';
-import 'package:tigwaal_driver/pages/onTripPage/map_page.dart';
-import 'package:tigwaal_driver/pages/onTripPage/review_page.dart';
-import 'package:tigwaal_driver/pages/vehicleInformations/referral_code.dart';
-import 'package:tigwaal_driver/pages/vehicleInformations/service_area.dart';
-import 'package:tigwaal_driver/pages/vehicleInformations/upload_docs.dart';
-import 'package:tigwaal_driver/pages/vehicleInformations/vehicle_color.dart';
-import 'package:tigwaal_driver/pages/vehicleInformations/vehicle_make.dart';
-import 'package:tigwaal_driver/pages/vehicleInformations/vehicle_model.dart';
-import 'package:tigwaal_driver/pages/vehicleInformations/vehicle_number.dart';
-import 'package:tigwaal_driver/pages/vehicleInformations/vehicle_type.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/editprofile.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/history.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/makecomplaint.dart';
+import 'package:tagyourtaxi_driver/pages/login/get_started.dart';
+import 'package:tagyourtaxi_driver/pages/login/login.dart';
+// import 'package:tagyourtaxi_driver/pages/login/ownerregister.dart';
+import 'package:tagyourtaxi_driver/pages/onTripPage/map_page.dart';
+import 'package:tagyourtaxi_driver/pages/onTripPage/review_page.dart';
+import 'package:tagyourtaxi_driver/pages/vehicleInformations/referral_code.dart';
+import 'package:tagyourtaxi_driver/pages/vehicleInformations/service_area.dart';
+import 'package:tagyourtaxi_driver/pages/vehicleInformations/upload_docs.dart';
+import 'package:tagyourtaxi_driver/pages/vehicleInformations/vehicle_color.dart';
+import 'package:tagyourtaxi_driver/pages/vehicleInformations/vehicle_make.dart';
+import 'package:tagyourtaxi_driver/pages/vehicleInformations/vehicle_model.dart';
+import 'package:tagyourtaxi_driver/pages/vehicleInformations/vehicle_number.dart';
+import 'package:tagyourtaxi_driver/pages/vehicleInformations/vehicle_type.dart';
 import 'package:http/http.dart' as http;
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:tigwaal_driver/pages/vehicleInformations/vehicle_year.dart';
-import 'package:tigwaal_driver/styles/styles.dart';
+import 'package:tagyourtaxi_driver/pages/vehicleInformations/vehicle_year.dart';
+import 'package:tagyourtaxi_driver/styles/styles.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../pages/NavigatorPages/fleetdocuments.dart';
 import '../pages/login/ownerregister.dart';
@@ -1106,7 +1106,6 @@ bool isBackground = false;
 
 //user current state
 getUserDetails() async {
-
   dynamic result;
 
   try {
@@ -1197,7 +1196,7 @@ getUserDetails() async {
         } else {
           duration = 0;
           if (driverReq.isNotEmpty) {
-          await  audioPlayer.play(audio);
+            await audioPlayer.play(audio);
           }
           chatList.clear();
           driverReq = {};

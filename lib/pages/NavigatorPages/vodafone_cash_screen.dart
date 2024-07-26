@@ -3,11 +3,11 @@ import 'dart:io';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:flutter/material.dart';
-import 'package:tigwaal_driver/cubit/payment_cubit.dart';
-import 'package:tigwaal_driver/cubit/payment_state.dart';
-import 'package:tigwaal_driver/functions/const.dart';
-import 'package:tigwaal_driver/functions/style.dart';
-import 'package:tigwaal_driver/functions/widget/customtext.dart';
+import 'package:tagyourtaxi_driver/cubit/payment_cubit.dart';
+import 'package:tagyourtaxi_driver/cubit/payment_state.dart';
+import 'package:tagyourtaxi_driver/functions/const.dart';
+import 'package:tagyourtaxi_driver/functions/style.dart';
+import 'package:tagyourtaxi_driver/functions/widget/customtext.dart';
 
 import 'package:webview_flutter/webview_flutter.dart';
 

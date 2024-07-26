@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tigwaal_driver/pages/loadingPage/loading.dart';
-import 'package:tigwaal_driver/pages/login/otp_page.dart';
-import 'package:tigwaal_driver/pages/noInternet/nointernet.dart';
-import 'package:tigwaal_driver/translation/translation.dart';
+import 'package:tagyourtaxi_driver/pages/loadingPage/loading.dart';
+import 'package:tagyourtaxi_driver/pages/login/otp_page.dart';
+import 'package:tagyourtaxi_driver/pages/noInternet/nointernet.dart';
+import 'package:tagyourtaxi_driver/translation/translation.dart';
 import '../../styles/styles.dart';
 import '../../functions/functions.dart';
 import '../../widgets/widgets.dart';

@@ -1,25 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tigwaal_driver/cubit/payment_cubit.dart';
-import 'package:tigwaal_driver/cubit/payment_state.dart';
-import 'package:tigwaal_driver/functions/const.dart';
-import 'package:tigwaal_driver/functions/functions.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/cashfreepage.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/charge.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/flutterwavepayment.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/paystackpayment.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/razorpaypage.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/selectwallet.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/valu_screen.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/visascreen.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/wallet_phone.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/withdraw.dart';
-import 'package:tigwaal_driver/pages/loadingPage/loading.dart';
-import 'package:tigwaal_driver/pages/noInternet/nointernet.dart';
-import 'package:tigwaal_driver/styles/styles.dart';
-import 'package:tigwaal_driver/translation/translation.dart';
-import 'package:tigwaal_driver/widgets/widgets.dart';
+import 'package:tagyourtaxi_driver/cubit/payment_cubit.dart';
+import 'package:tagyourtaxi_driver/cubit/payment_state.dart';
+import 'package:tagyourtaxi_driver/functions/const.dart';
+import 'package:tagyourtaxi_driver/functions/functions.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/cashfreepage.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/charge.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/flutterwavepayment.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/paystackpayment.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/razorpaypage.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/selectwallet.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/valu_screen.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/visascreen.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/wallet_phone.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/withdraw.dart';
+import 'package:tagyourtaxi_driver/pages/loadingPage/loading.dart';
+import 'package:tagyourtaxi_driver/pages/noInternet/nointernet.dart';
+import 'package:tagyourtaxi_driver/styles/styles.dart';
+import 'package:tagyourtaxi_driver/translation/translation.dart';
+import 'package:tagyourtaxi_driver/widgets/widgets.dart';
 
 class WalletPage extends StatefulWidget {
   const WalletPage({Key? key}) : super(key: key);
@@ -991,7 +991,7 @@ class _WalletPageState extends State<WalletPage> {
                                                     //           ),
                                                     //         ))
                                                     //     : Container(),
-                                                  
+
                                                     (walletBalance['paystack'] ==
                                                             true)
                                                         ? Container(

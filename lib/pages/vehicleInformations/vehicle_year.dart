@@ -2,12 +2,12 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tigwaal_driver/functions/functions.dart';
-import 'package:tigwaal_driver/pages/noInternet/nointernet.dart';
-import 'package:tigwaal_driver/pages/vehicleInformations/vehicle_number.dart';
-import 'package:tigwaal_driver/styles/styles.dart';
-import 'package:tigwaal_driver/translation/translation.dart';
-import 'package:tigwaal_driver/widgets/widgets.dart';
+import 'package:tagyourtaxi_driver/functions/functions.dart';
+import 'package:tagyourtaxi_driver/pages/noInternet/nointernet.dart';
+import 'package:tagyourtaxi_driver/pages/vehicleInformations/vehicle_number.dart';
+import 'package:tagyourtaxi_driver/styles/styles.dart';
+import 'package:tagyourtaxi_driver/translation/translation.dart';
+import 'package:tagyourtaxi_driver/widgets/widgets.dart';
 
 class VehicleYear extends StatefulWidget {
   const VehicleYear({Key? key}) : super(key: key);

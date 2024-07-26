@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tigwaal_driver/functions/functions.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/assigndriver.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/fleetdocuments.dart';
-import 'package:tigwaal_driver/pages/loadingPage/loading.dart';
-import 'package:tigwaal_driver/pages/vehicleInformations/vehicle_type.dart';
-import 'package:tigwaal_driver/styles/styles.dart';
-import 'package:tigwaal_driver/translation/translation.dart';
-import 'package:tigwaal_driver/widgets/widgets.dart';
+import 'package:tagyourtaxi_driver/functions/functions.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/assigndriver.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/fleetdocuments.dart';
+import 'package:tagyourtaxi_driver/pages/loadingPage/loading.dart';
+import 'package:tagyourtaxi_driver/pages/vehicleInformations/vehicle_type.dart';
+import 'package:tagyourtaxi_driver/styles/styles.dart';
+import 'package:tagyourtaxi_driver/translation/translation.dart';
+import 'package:tagyourtaxi_driver/widgets/widgets.dart';
 
 import '../vehicleInformations/service_area.dart';
 

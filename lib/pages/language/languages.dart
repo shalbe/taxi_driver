@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tigwaal_driver/pages/loadingPage/loading.dart';
-import 'package:tigwaal_driver/styles/styles.dart';
-import 'package:tigwaal_driver/translation/translation.dart';
+import 'package:tagyourtaxi_driver/pages/loadingPage/loading.dart';
+import 'package:tagyourtaxi_driver/styles/styles.dart';
+import 'package:tagyourtaxi_driver/translation/translation.dart';
 import '../../functions/functions.dart';
 import '../../widgets/widgets.dart';
 import '../login/signupmethod.dart';

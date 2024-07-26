@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:tigwaal_driver/functions/const.dart';
-import 'package:tigwaal_driver/functions/functions.dart';
+import 'package:tagyourtaxi_driver/functions/const.dart';
+import 'package:tagyourtaxi_driver/functions/functions.dart';
 
 class DioHelper {
   static late Dio dio;

@@ -2,13 +2,13 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tigwaal_driver/functions/functions.dart';
-import 'package:tigwaal_driver/pages/NavigatorPages/walletpage.dart';
-import 'package:tigwaal_driver/pages/loadingPage/loading.dart';
-import 'package:tigwaal_driver/pages/noInternet/nointernet.dart';
-import 'package:tigwaal_driver/styles/styles.dart';
-import 'package:tigwaal_driver/translation/translation.dart';
-import 'package:tigwaal_driver/widgets/widgets.dart';
+import 'package:tagyourtaxi_driver/functions/functions.dart';
+import 'package:tagyourtaxi_driver/pages/NavigatorPages/walletpage.dart';
+import 'package:tagyourtaxi_driver/pages/loadingPage/loading.dart';
+import 'package:tagyourtaxi_driver/pages/noInternet/nointernet.dart';
+import 'package:tagyourtaxi_driver/styles/styles.dart';
+import 'package:tagyourtaxi_driver/translation/translation.dart';
+import 'package:tagyourtaxi_driver/widgets/widgets.dart';
 import 'package:cashfree_pg/cashfree_pg.dart';
 
 class CashFreePage extends StatefulWidget {
